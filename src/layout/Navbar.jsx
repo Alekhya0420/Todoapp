@@ -16,10 +16,7 @@ import { NavLink } from 'react-router-dom';
 
 const pages = [
   {name: 'Register', path: '/register' },
-  {name: 'Update', path: '/update' },
-  {name: 'Login', path: '/login' },
-  {name:'Allblog',path:'/allblog'},
-  {name:'PageContent',path:'/pagecontent'}
+  {name: 'Show', path: '/showlist' },
  
 ];
 const settings = [
@@ -48,7 +45,7 @@ function Navbar() {
   };
 
   return (
-    <AppBar position="static"  sx={{bgcolor: 'black'}}>
+    <AppBar position="static"  sx={{bgcolor: 'skyblue'}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
